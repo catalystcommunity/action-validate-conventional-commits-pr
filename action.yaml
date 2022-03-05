@@ -1,22 +1,16 @@
-name: 'Hello World' # taken from https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
-description: 'Greet someone'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
-outputs:
-  random-number:
-    description: "Random number"
-    value: ${{ steps.random-number-generator.outputs.random-id }}
+name: 'Validate Conventional Commits PR'
+description: 'Validates that a pull request follows conventional commits. If there is only one commit on the pull request, the commit message will be validated as well, and you may need to amend your commit message.'
+inputs: {}
+outputs: {}
 runs:
   using: "composite"
   steps:
-    - run: echo Hello ${{ inputs.who-to-greet }}.
-      shell: bash
-    - id: random-number-generator
-      run: echo "::set-output name=random-id::$(echo $RANDOM)"
-      shell: bash
-    - run: ${{ github.action_path }}/goodbye.sh
-      shell: bash
-
+    - uses: amannn/action-semantic-pull-request@v3.4.6
+      with:
+        types: |
+          fix
+          feat
+          norelease
+        validateSingleCommit: true
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
