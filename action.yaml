@@ -1,7 +1,5 @@
 name: 'Validate Conventional Commits PR'
 description: 'Validates that a pull request follows conventional commits. If there is only one commit on the pull request, the commit message will be validated as well, and you may need to amend your commit message.'
-inputs: {}
-outputs: {}
 runs:
   using: "composite"
   steps:

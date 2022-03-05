@@ -37,20 +37,19 @@ Validates that a pull request follows conventional commits. If there is only one
 ### Example usage
 
 ```yaml
-on: [push]
-
+name: Validate pull request
+on:
+  pull_request:
+    branches:
+      - main
 jobs:
-  hello_world_job:
+  conventional-commits-pr:
+    if: github.event.pull_request.draft == false
+    name: Validate Conventional Commits PR
     runs-on: ubuntu-latest
-    name: A job to say hello
     steps:
-      - uses: actions/checkout@v2
-      - id: foo
-        uses: actions/hello-world-composite-action@v1
-        with:
-          who-to-greet: "Mona the Octocat"
-      - run: echo random-number ${{ steps.foo.outputs.random-number }}
-        shell: bash
+      - uses: crazy-max/ghaction-dump-context@v1
+      - uses: catalystsquad/action-validate-conventional-commits-pr@v1
 ```
 
 <!-- end examples -->
