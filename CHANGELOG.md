@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.0...v1.0.1) (2022-03-05)
+
+
+### Bug Fixes
+
+* Add inputs/outputs, they seem to be required by the readme generator ([#3](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/3)) ([0ee4f9d](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/0ee4f9d20a2206e8d13f3407989acca17922e3c0))
+* Update example in readme, update PR to use self. ([#2](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/2)) ([fb3366f](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/fb3366f6643c7266baf9f1ecc73aaa99207ae0d0))
+
 # 1.0.0 (2022-03-05)
 
 
