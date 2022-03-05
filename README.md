@@ -1,11 +1,11 @@
 <!-- start title -->
 
-# GitHub Action:Hello World
+# GitHub Action:Validate Conventional Commits PR
 
 <!-- end title -->
 <!-- start description -->
 
-Greet someone
+Validates that a pull request follows conventional commits. If there is only one commit on the pull request, the commit message will be validated as well, and you may need to amend your commit message.
 
 <!-- end description -->
 <!-- start contents -->
@@ -13,11 +13,8 @@ Greet someone
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-composite-action-template@undefined
+- uses: catalystsquad/action-validate-conventional-commits-pr@undefined
   with:
-    # Who to greet
-    # Default: World
-    who-to-greet: ""
 ```
 
 <!-- end usage -->

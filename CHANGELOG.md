@@ -1,3 +1,10 @@
+# 1.0.0 (2022-03-05)
+
+
+### Bug Fixes
+
+* Initial commit ([#1](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/1)) ([1585c0d](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/1585c0d69b6016f1f4d5c473afcedce7a6852a10))
+
 # 1.0.0 (2022-02-28)
 
 
