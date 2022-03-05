@@ -19,18 +19,8 @@ Validates that a pull request follows conventional commits. If there is only one
 
 <!-- end usage -->
 <!-- start inputs -->
-
-| **Input**          | **Description** | **Default** | **Required** |
-| :----------------- | :-------------- | :---------: | :----------: |
-| **`who-to-greet`** | Who to greet    |   `World`   |   **true**   |
-
 <!-- end inputs -->
 <!-- start outputs -->
-
-| **Output**      | **Description** | **Default** | **Required** |
-| :-------------- | :-------------- | ----------- | ------------ |
-| `random-number` | Random number   |             |              |
-
 <!-- end outputs -->
 <!-- start examples -->
 
