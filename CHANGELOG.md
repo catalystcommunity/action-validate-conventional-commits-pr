@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.1...v1.0.2) (2022-03-05)
+
+
+### Bug Fixes
+
+* experimenting with inputs, outputs, and readme. ([#4](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/4)) ([84afe4a](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/84afe4aa678be17744c1321687ed3d866a6c2d35))
+* experimenting with inputs, outputs, and readme. ([#5](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/5)) ([5df0575](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/5df0575a1af000c36e6582cd5d22a1404ffb58b7))
+
 ## [1.0.1](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.0...v1.0.1) (2022-03-05)
 
 
