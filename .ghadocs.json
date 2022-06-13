@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "action": "/home/runner/work/action-validate-conventional-commits-pr/action-validate-conventional-commits-pr/action.yaml",
+    "readme": "README.md"
+  },
+  "show_logo": "",
+  "pretty": "true",
+  "versioning": {
+    "enabled": "true",
+    "override": "",
+    "prefix": "v",
+    "branch": "main"
+  },
+  "title_prefix": "GitHub Action:",
+  "owner": "catalystsquad",
+  "repo": "action-validate-conventional-commits-pr"
+}
