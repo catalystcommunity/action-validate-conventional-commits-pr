@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.2...v1.0.3) (2022-06-13)
+
+
+### Bug Fixes
+
+* remove norelease type, add chore and docs ([#6](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/6)) ([c267cb8](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/c267cb82765c0713b956f88d8c56c148a1c1f1e6)), closes [/github.com/catalystsquad/release-config-general/blob/90e87288a3c166f464f222a35a6fcb69a92404f4/index.js#L10](https://github.com//github.com/catalystsquad/release-config-general/blob/90e87288a3c166f464f222a35a6fcb69a92404f4/index.js/issues/L10)
+
 ## [1.0.2](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.1...v1.0.2) (2022-03-05)
 
 
