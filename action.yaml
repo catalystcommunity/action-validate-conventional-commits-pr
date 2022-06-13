@@ -10,7 +10,8 @@ runs:
         types: |
           fix
           feat
-          norelease
+          chore
+          docs
         validateSingleCommit: true
       env:
         GITHUB_TOKEN: ${{ github.token }}
