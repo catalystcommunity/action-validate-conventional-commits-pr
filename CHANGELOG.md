@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.3...v1.0.4) (2023-02-02)
+
+
+### Bug Fixes
+
+* update dependency on amannn/action-semantic-pull-request to get off node12 requirements for runners ([#8](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/8)) ([9e9c22d](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/9e9c22d7bc52e6f81ba047e2af9da3264b7f19f3))
+
 ## [1.0.3](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.2...v1.0.3) (2022-06-13)
 
 
