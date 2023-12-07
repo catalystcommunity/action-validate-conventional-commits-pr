@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.4...v1.0.5) (2023-12-07)
+
+
+### Bug Fixes
+
+* allow build type ([#9](https://github.com/catalystsquad/action-validate-conventional-commits-pr/issues/9)) ([de72cb7](https://github.com/catalystsquad/action-validate-conventional-commits-pr/commit/de72cb73e2f6b3a5ca6f5f7e54b46c9cca4e0d15))
+
 ## [1.0.4](https://github.com/catalystsquad/action-validate-conventional-commits-pr/compare/v1.0.3...v1.0.4) (2023-02-02)
 
 
