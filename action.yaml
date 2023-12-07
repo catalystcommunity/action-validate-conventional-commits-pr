@@ -12,6 +12,7 @@ runs:
           feat
           chore
           docs
+          build
         validateSingleCommit: true
       env:
         GITHUB_TOKEN: ${{ github.token }}
