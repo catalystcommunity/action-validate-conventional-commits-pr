@@ -13,7 +13,7 @@ Validates that a pull request follows conventional commits. If there is only one
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-validate-conventional-commits-pr@undefined
+- uses: catalystcommunity/action-validate-conventional-commits-pr@undefined
   with:
 ```
 
@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: crazy-max/ghaction-dump-context@v1
-      - uses: catalystsquad/action-validate-conventional-commits-pr@v1
+      - uses: catalystcommunity/action-validate-conventional-commits-pr@v1
 ```
 
 <!-- end examples -->
